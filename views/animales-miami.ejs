@@ -1,0 +1,5 @@
+<ol>
+<% animales.forEach( a => { %>
+     <li style="<%= a.color ? `color:${a.color}` : '' %>"><%= a.name %></li>
+<% }) %>
+</ol>

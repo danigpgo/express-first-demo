@@ -1,0 +1,12 @@
+body {
+  color: blue;
+  background-color: bisque;
+}
+
+li{
+  font-size: 22px;
+}
+
+#animals-add{
+  margin: 20px;
+}

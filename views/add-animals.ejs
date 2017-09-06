@@ -1,0 +1,15 @@
+
+<h1>Hola <%= nombre %></h1>
+
+<ul>
+<% animales.forEach( a => { %>
+     <li style="<%= a.color ? `color:${a.color}` : '' %>"><%= a.name %></li>
+<% }) %>
+</ul>
+
+
+<form id="animals-add" action="/animals?animal=pepe" method="post">
+  <label for="first-name-input">Animal: </label>
+  <input id="first-name-input" type="text" name="animal">
+  <input type="submit" value="Add Animal">
+</form>
