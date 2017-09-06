@@ -68,7 +68,7 @@ app.post('/animals', (req,res) =>{
   console.log(req.query);
   console.log("HTTP BODY:");
   console.log(req.body);
-  animals.push({name:req.body.animal, color:'red'});
+  animals.push({name:req.body.animal, color:'purple'});
   res.redirect('/animals?name=ESPOSTCONREDIRECT');
 });
 
